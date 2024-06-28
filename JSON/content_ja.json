@@ -1,0 +1,23 @@
+{
+    "nav" : {
+        "web" : "ウェブ開発",
+        "data" : "データサイエンス",
+        "graphic" : "グラフィック",
+        "voice" : "声優",
+        "blender" : "三次元設計",
+        "music" : "音楽とサウンドデザイン",
+        "game" : "ビデオゲーム開発"
+    },
+    "sidebar" : {
+
+    },
+    "experience" : {
+
+    },
+    "main" : { 
+
+    },
+    "future-nav" : {
+        "writing" : "Books & Papers"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "nav" : {
+        "web" : "Web-ontwikkeling",
+        "data" : "Data-wetenskap",
+        "graphic" : "Grafiese Ontwerp",
+        "voice" : "Stemspel",
+        "blender" : "3D Ontwerp",
+        "video" : "Video Redigeering",
+        "music" : "Musiek-en klankontwerp",
+        "game" : "Video Game Ontwerp"
+    },
+    "sidebar" : {
+
+    },
+    "experience" : {
+
+    },
+    "main" : { 
+
+    },
+    "future-nav" : {
+        "writing" : "Books & Papers"
+    }
+}

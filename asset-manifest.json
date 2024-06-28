@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ephime/static/css/main.9f62e0ad.css",
+    "main.js": "/Ephime/static/js/main.f543a192.js",
+    "index.html": "/Ephime/index.html",
+    "main.9f62e0ad.css.map": "/Ephime/static/css/main.9f62e0ad.css.map",
+    "main.f543a192.js.map": "/Ephime/static/js/main.f543a192.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f62e0ad.css",
+    "static/js/main.f543a192.js"
+  ]
+}
