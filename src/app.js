@@ -33,16 +33,22 @@ const App = () => {
         getJSON();
     }, [language]);
 
+    const [display, setDispaly] = useState(null);
+
     return (
         <>
             <BackgroundVideo />
-            <Main />
-            <Nav content={content} type={setContentType} />
-            <Language chooseLanguage={setLanguage} currentLanguage={language} />
-            <Sidebar type={contentType} display={content} />
-            <div id="experience">
-                <Experience content={content} type={contentType} />
-            </div>
+            <Main display={setDispaly}/>
+            {display && (
+                <>
+                    <Nav content={content} type={setContentType} />
+                    <Language chooseLanguage={setLanguage} currentLanguage={language} />
+                    <Sidebar type={contentType} display={content} />
+                    <div id="experience">
+                        <Experience content={content} type={contentType} />
+                    </div>
+                </>
+            )}
         </>
     );
 };
