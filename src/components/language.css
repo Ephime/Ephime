@@ -1,0 +1,18 @@
+.language{
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 3px 20px 3px 3px;
+    transition: 0.5s;
+}
+
+.language span{
+    font-size: 13pt;
+    margin-left: 10px;
+}
+
+.icon span{
+    display: none;
+}

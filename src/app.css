@@ -1,0 +1,64 @@
+#nav-div{
+    grid-area: 2 / 2 / 3 / 19;
+    margin: 40px;
+    background-color: #000;
+    border-radius: 25px;
+}
+
+#nav-div nav > a{
+    margin: 0 15px;
+}
+
+#language-div{
+    grid-area: 2 / 19 / 3 / 20;
+}
+
+#sidebar{
+    grid-area: 3 / 2 / 12 / 4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#sidebar > span:hover, #language-div > ul > li:hover{
+    color: #fff;
+}
+
+#experience{
+    grid-area: 3 / 5 / 12 / 19;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    padding-right: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 25px;
+    max-width: 850px;
+}
+
+#content{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.box-content{
+    box-shadow: -10px 10px 15px #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.StringKey{
+    line-height: 1.8;
+}
+  
+  
