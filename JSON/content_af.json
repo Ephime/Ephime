@@ -1,0 +1,193 @@
+{
+    "nav" : {
+        "web" : "Web-ontwikkeling",
+        "data" : "Data-wetenskap",
+        "graphic" : "Grafika",
+        "voice" : "Stemspel",
+        "blender" : "3D Ontwerp & Animasie",
+        "music" : "Musiek-en klankontwerp",
+        "game" : "Video Game Ontwerp",
+        "writing": "Skrewe"
+    },
+"sidebar" : {
+        "web" : [
+            {"Frontend": ["Basics", "React", "Other"]},
+            {"Backend": ["Nodejs", "EJS", "API", "Python", "PHP", "Deno", "ASP.NET", "Git & version control"]},
+            {"DBMS": ["MongoDB", "SQL", "PostgreSQL"]},
+            {"Web3": ["DFINITY", "Motoko", "Ubuntu"]},
+            {"Summary": ["Languages", "DBMS", "Systems"]},
+            {"Projects": ["Interskole", "4D IT Solutions", "DurimGH", "ML", "Concierge", "Language App", "Gallery"]}
+        ],
+        "data" : [
+            {"Machine Learning": ["Neural Networks", "Reinforcement", "Convolutional"]},
+            {"Data Analysis" : ["Data Collection and Cleaning", "Statistical Analysis"]},
+            {"Database Management": ["Modeling", "SQL & NoSQL", "JSON"]},
+            {"Languages": ["Python", "JavaScript"]},
+            {"Experience": ["Games", "Input Data", "System Management"]}
+        ],
+        "graphic" : [
+            {"Graphic Design": ["Designing", "Magazine Layouts", "Web Design", "Font creation", "Letterhead", "Cover pages", "Email Signatures"]},
+            {"Editing": ["Photoshop", "Video Editing", "CGI"]},
+            {"Photography": []}
+        ],
+        "voice" : [],
+        "blender" : [
+            {"Bledner": ["3D Animation"]}
+        ],
+        "music" : [],
+        "game" : [],
+        "writing": []
+    },
+    "experience" : {
+        "web" : [
+            {"Frontend": [
+                {"Basics": {
+                    "HTML": "Understanding of advence HTML for both Web Development as well as usage within Emails. Good understanding of Robot files, SEO concepts, specifying content layouts for tools such as tts, etc. (content layout specifications meaning indicationg alt text, articles, quotes, main, nav, footer etc.)",
+                    "CSS": "Understanding of advance CSS such as layouts (flexboxes, grids, floats, etc.) and sapcing usage (with effecient usage of elements and reductin of div requirements). Understanding of webkit elemtns and manipulation of said elements. Usage of varous secure css at-rules (@media, @keyframe, @scope, etc.) alongside effecient usage for responsive design, advanced animations, advance shapes, etc. SUperb understanding of variable usage and pseudo elements.",
+                    "Frameworks": "Capable of using and effeciently applying SASS, Bootstrap and Tailwind CSS, and HUGO"
+                }},
+                {"JavaScript": {
+                    "JQuery": "Can use JQuery 3.x versions effeciently, as well as run regular JS to manipulate the DOM elements. Can also use JQuery (or regular JS) to run http requests, or any other required types of functions.",
+                    "React": "Advanced understanding of React and all hooks (and custom hooks), including their niche requirements to run hooks such as useEffect without errors. Understanding of corporate requirements when building custom components, can also use Redux with React. (React recently released a version where subtle hooks designed for specific use such as useCallback() are no longer required but I can still incorporate them effectively if the version of React requires it).",
+                    "TypeScript" : "Can use TypeScript for more effecient JS",
+                    "WebGL & Three.js" : "Can use both modules to incorporate and use 3D art. Can also \"import\" Blender scenes into web sites."
+                }},
+                {"Other": {
+                    "Axios": "Can use axios effeciently as oppose to the fetch API to handle HTTP requests",
+                    "XML/SVG": "Can create advance svg elements either wihtin a document or as an external element, imported into a main document. Can also dynamically manipulate the elements based on conditions, user input, etc."
+                }}
+            ]},
+            {"Backend": [
+                {"Git & version control": {
+                    "Git": "Can work with Git to an advance degree. I have no experience in working with teams through GIt and version control, but I do understand the theory."
+                }},
+                {"Nodejs": {
+                    "Express": "Can work with nodejs express applications to an advance level, alongside seession control, basic authentication and security, dynamic router control, router module, asynchronous design, database abstraction, session control, middleware, MVC architecture  etc. Have built data management web applications and e-commerce applications with it.",
+                    "OAuth": "Can implement OAuth effeciently for user authentication and session control.",
+                    "EJS": "Can implement ejs to an advance level to render dynamic content, can also create reload optimisation (similar to frameworks like React), loading of dynamic content, secure transactions, etc."
+                }},
+                {"API": {
+                    "REST": "Can effeciently work with, distribute, create, connect, secure, etc. any REST API system/module.",
+                    "GrapQL": "Can effectively create, run and update a system based on or in use of the GraphQL API in 0order to query data and gain the requisite/predictable results.",
+                    "Microservice": "Can implement botnh monolithic and Microservice Architectures.",
+                    "Websockets:": "Can work with websockets to provide a full-duplex communication channel for real-time transfers between client and server"
+                }},
+                {"Python": {
+                    "Python": "Can run python scipts as a seperate module/codebase/microservice/server/etc. to permform tasks (such as optimised learning algorithms, prediction algorithms, seperate data analysis, etc.), either through API. HTTP requests or a shared database.",
+                    "Django": "Can use Django to build fast, higly scalable web apps and act as the backend/run a powerful API based system. As well as im-plement a fair bit of Jinja2 for HTML generation.",
+                    "Flask": "Understand the theory of Flask, but have not spent too much time to conscider myself and expert, yet."
+                }},
+                {"PHP": {
+                    "Defalt PHP": "Can use default PHP to an advance degree to create scalable, customisable and secure web applications. As well as provide session control, login, content management, etc.",
+                    "Laravel": "Understanding of the MVC architecture, routing, middleware, database abstraction & package management, mostly due to advance usage of Nodjs. I do not conscider myself an expert in Laravel yet."
+                }},
+                {"Deno": {
+                    "Coming Soon": "I'm currently learning DENO"
+                }},
+                {"ASP.NET": {
+                    "Coming Soon": "I'm currently learning ASP.NET"
+                }}
+            ]},
+            {"DBMS": [
+                {"MongoDB" : {
+                    "Modeling": "Profiecient in managing NoSql (MongoDB) databases, incljuding installation, configuration, maintenacne, etc. Also experienced in designing efficient data models and schemas to optimise the performance and ensure data integrity.",
+                    "Analysis": "Can effectively utilise mongoDB's aggregation framework for complex data analysis, transforming data and presenting it.",
+                    "Optimisation": "Good understanding of optimising queries, especially through indexing and query profiling tools.",
+                    "Security": "Can apply security for authentication, database encryption and authorisation",
+                    "Integration": "Can integrate effectively with Nodejs through utilisation of the mongoose npm moldule",
+                    "Other": "Can implement mongoDB backup and recovery strsategies for data integrity and availability. Can also effeciently utilise replication and sharding for high availability and horisontal scaling"
+                }},
+                {"MySQL & PostgreSQL" : {
+                    "Integration": "Can integraten with various application of PHP, Python, Javascript (Nodejs, Deno), and other relevant technologies.",
+                    "Desging": "Can create effective desgins and planning for database layouts and schema designs, as well as robust understanding of PK - FK communication and effecient use and design. As well as developing and maintaing store procedures, triggers and funcations to maintain optimisation.",
+                    "Monitoring": "Can use tools to monitor integrity, queries and availability of MySQL/PostgreSQL databasis"
+                }}
+            ]},
+            {"Web3": [
+                {"DFINITY" : {
+                    "DFINITY SDK": "Can utilise the DFINITy SDK to develop and deploy blockchain applications effeciently",
+                    "ICP": "Can develop smart contracts/canisters using ICP as well as to handle various dApp functionalities"
+                }},
+                {"Languages" : {
+                    "Metoko": "Specialized in writing smart contracts/canisters using Motoko for DFINITY's Internet Computer.",
+                    "TypeScript": " Built decentralized applications using JavaScript and TypeScript, integrating with web3 libraries such as Web3.js and Ethers.js.",
+                    "Python": "Implemented blockchain solutions and smart contracts using Python, with a focus on frameworks like Brownie and web3.py.",
+                    "C++": "Coming soon"
+                }},
+                {"Ubuntu" : {
+                    "Server managent": " Managed and configured Ubuntu servers for hosting decentralized applications.",
+                    "CI/CD Pipelines": " Set up continuous integration and continuous deployment (CI/CD) pipelines using Ubuntu, streamlining the development process."
+                }}
+            ]},
+            {"Summary": [
+                {"Languages" : {
+                    "Low Level": "C, C++",
+                    "High Level": "JavaScript, TypeScript, Python, PHP, Lua, Metoko",
+                    "Frameworks": "Bootstrap, SASS, JQuery, React, Laravel, Django, Flask, HUGO, etc.",
+                    "Other": "Bash (Not a language, really), HTML, CSS, XML"
+                }},
+                {"DBMS" : {
+                    "NoSQL": "MongoDB",
+                    "SQL": "MySQL, PostgreSQL"
+                }},
+                {"Systems" : {
+                    "Desktop": "Windows, Ubuntu",
+                    "Mobile": "Android",
+                    "API": "REST, GraphQL"
+                }}
+            ]}
+        ],
+        "data" : [
+            {"Machine Learning": [
+                {"Neural Networks": "Understanding of the structures of Learning Algortihms, especially through the use of tensors, and the data structures of neural networks used to train advance machine learning algorithms"},
+                {"Reinforcment": "Understanding of both Q-learning and Deep Q-learning. Including but not limited to MDP (Markov Decision Processes), usage and different developments of the Bellman equation (often use to distinguise between an environment that distinguishes between aspects of deterministic and non-determinstic search), the stochastic processes, etc. Can calculate intuition, temporal differences, backpropogation, etc. I also have an good understanding of various functions often applied to calculate the possibilities per neuron, such as the activations function, sigmoid, rectifier and the hyperbolic tangent function."},
+                {"Convolutional": "Understanding of the concepts behind convulutional neural networks, as well as the rendering of convulutional layers to allow a form of 'visualisation' in a binary format to be used by MLA. The specific process being ReLu layer -> Pooling -> Flattening -> Regression"}
+            ]},
+            {"Data Analysis": [
+                {"Data Collection and Cleaning": "Can ensure comprehensive and representative datasets, proficient in web scraping, adept at handling API's. Cleaning data using Python libraries such as Pandas and NumPy"},
+                {"Statistical Analysis": "Hypothesis testing, Regression analysis, and Variance analysis. Strong mathematical background in statistical mathematics and probability"}
+            ]},
+            {"Database Management": [
+                {"Modeling": "Skilled in designing Schemas & models to a complex degree. Profiecient in optimising both the structures and querying of the data. Skilled in using Entity-Relationship Diagrams (ERDs) to visualize and plan database structures, ensuring data integrity and optimal performance."},
+                {"SQL & NoSQL": "Experienced in working with both SQL and NoSQL databases. Proficient in writing complex SQL queries, stored procedures, and triggers for relational databases like MySQL, PostgreSQL, and SQL Server. Adept at managing NoSQL databases such as MongoDB utilizing their flexible schema designs for dynamic data needs."},
+                {"JSON": "Can utilise and create 'local' JSON files to act as a server to the same development environment/service."}
+            ]},
+            {"Languages": [
+                {"Python":"Python being the most common in this category, I can effectively use it to an advance level. Can use both Pytorch (more experience) and Tensorflow. As well as Pandas and Numpy"},
+                {"JavaScript":"Can use frameworks such as WebGL API, Math.js, Brain.js, ml5.js, d3.js, plotly.js, chart.js, d3.js and Google Chart in order to understand the usage and preferences of JavaScript as a web ML language better."}
+            ]},
+            {"Experience": [
+                {"Games":"I've connected deep q-learning algorithms to games such as pacman, moon landing etc, and trained them to gain perfect scores, in the most optimal ammount of time with as few learning iterations as possible. (To the limit of my own computer hardware)"},
+                {"Input Data":"Used and developed MLA to take user inputs in order to develop a good system of study. For example, such as learning vocabulary, and optimising it to make sure each individual user can learn the words properly"},
+                {"System management": "Developed a system for DurimGH whilst working for 4D IT Solutions to collect, display and organise their data in several instances. The system uses a MySQL database. Also assisted in optimising and eventually became the main manager for the Starcrow36 electronic management system."}
+            ]}
+        ],
+        "graphic" : [
+            {"Graphic Design": [
+                {"Logo": "Have an understnad of different logo design concepts, theories and history, a good grasp of colour theory and capable of keeping up with the current market. Can create vectorised versions as well as optimise for different types of usage (such as billboards, websites, PDF's, printable materials, favicons, etc.)"},
+                {"Magazine Layouts": "Can create different magazine layouts as well as portfolio layouts, brochures, etc."},
+                {"Web Design": "Can create advance web frontends with optimisations, content management, etc. Can desgin in various layouts, add several languages, as well as themese (like dark mode/light mode, etc.)."},
+                {"Fon creationt": "Can create your own personal font in any style, or a full font \"family\" (meaning serif, sans serif and cursive. Can also create the fonts with combinations of several writing and numerical systems."},
+                {"Letterhead": "Can create letterheads with a beautiful, but also practical design."},
+                {"Cover pages": "Can desgin cover pages for different content types, including but noot limited to novels, textbooks, company policies, etc."},
+                {"Email Signatures": "Can desgin email Signatures for companies and individuals alike as well as apply them."}
+            ]},
+            {"Editing": [
+                {"Layouts": "Can create content layouts for books, cards, printed material, etc.; plan layouts and website flows and communication channels."},
+                {"Photoshop": "Can use photoshop to put together posters, fix photos, alter old images, etc."},
+                {"Video Editing": "Can edit short form and long form content, as well as create subtitles, redesign them for different online media platforms (YouTube, Instagram, etc.)"},
+                {"CGI": "Can create and edit in CGI as well as work with green screening."}
+            ]},
+            {"Photography": "No content available yet"}
+        ],
+        "voice" : "No Voice Acting Content Available Yet",
+        "blender" : [
+            {"Blender": [
+                {"3D Animation": "Although I would not conscider myself all too profecient at 3D animation yet, I can work with Blender to a profecient level creating 3D images/animations. As well as basic character modeling, UV Transformations, etc. Also have a good understanding of Toupology."}
+            ]}
+        ],
+        "music" : "No Music or Sound Design Content Available Yet",
+        "game" : "No Game Content Available Yet",
+        "writing": "No Writing Content Available Yet"
+    }
+}
